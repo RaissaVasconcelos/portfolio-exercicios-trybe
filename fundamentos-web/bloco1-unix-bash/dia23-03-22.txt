@@ -16,3 +16,22 @@ Parte 1
 13. clear
 14. head -5 trybe_new.txt
 15. tail -4 trybe_new.txt
+
+Parte 2
+
+1.  Utilizado o comando curl -o 
+2.  cat countries.txt
+3.  
+4.  grep "Zambia" countries.txt
+5.  grep "Brazil" countries.txt
+6.  grep -i "brazil" countries.txt -i procura tanto palavras em letras maiusculas e minusculas
+7.  grep -Riv "fox" frases.txt
+8.  wc -w frases.txt
+9.  wc -l frases.txt
+10. touch empty.tbt
+    touch empty.pdf
+11. ls 
+12. ls *.txt
+13. ls *.t?t
+14. man ls
+

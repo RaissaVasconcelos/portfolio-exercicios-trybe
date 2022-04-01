@@ -1,0 +1,12 @@
+Parte 1 
+
+1.  cd Unix_tests    
+2.  touch skills.txt 
+    cat skills
+3.  cat >> skills.txt
+    cat skills.txt
+4.  cat skills.txt | wc -l
+5.  touch top_skills.txt
+    A ideia é pegar a saida do 1. comando e combinar com a entrada do 2 comando
+    sort < skills2.txt | head -n 3 > top_skills.txt
+6.   

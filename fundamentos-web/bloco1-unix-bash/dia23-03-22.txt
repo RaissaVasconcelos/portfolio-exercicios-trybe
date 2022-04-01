@@ -1,0 +1,18 @@
+Parte 1 
+
+1.  mkdir unix_tests
+    cd unix_test
+2.  touch trybe.txt
+3.  cp trybe.txt trybe_backup.txt
+4.  mv trybe.txt trybe_new
+5.  mkdir backup
+6.  mv trybe_backup trybe_backup
+7.  mkdir backup2
+8. mv ./backup/trybe_backup backup2
+9. rmdir backup2
+10. mv backup2 backup
+11. pwd
+12. rm -rf backup
+13. clear
+14. head -5 trybe_new.txt
+15. tail -4 trybe_new.txt

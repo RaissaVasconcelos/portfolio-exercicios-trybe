@@ -1,0 +1,30 @@
+.img{
+    width: 200px;
+    border: 2px solid red;  
+}
+
+#img-a{
+
+    left:100px;
+    top: auto;
+    width:500px;
+    position: absolute;
+    vertical-align:bottom;
+}
+
+.cavalo-marinho {
+    color: aqua;
+    text-decoration: solid;
+}
+
+.paragrafo{
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 80%;
+ 
+}
+.div {
+    height: 50px;
+
+}

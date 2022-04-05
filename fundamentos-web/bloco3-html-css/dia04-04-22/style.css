@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    border: 2px solid red;
+    text-align: justify;
+}
+
+header, nav{
+    border: 2px solid red;
+    text-align: center;
+    color: rgb(66, 8, 121);
+}
+
+header h3 {
+    text-align: left;
+    color: blue;
+}
+
+h2{
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    border: 2px solid red;
+}
+
+li:hover{
+    background-color: blue;
+}
+
+li:active{
+    color: red;
+}
+
+main{
+    border: 2px solid red;
+}
+
+article{
+    font-size: 15px;
+}
+
+.video{
+    text-align: right;
+    display: inline-block;
+}
+
+.header{
+    text-align: center;
+    background-color:rgba(0, 188, 217, 0.8);
+    color: black;
+}

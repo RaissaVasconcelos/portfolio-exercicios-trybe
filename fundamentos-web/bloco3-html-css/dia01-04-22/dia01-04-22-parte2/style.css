@@ -1,0 +1,15 @@
+h1, p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 2px solid red;
+    color: red;
+  }
+
+li:hover{
+  background-color: gray;
+}  
+li:active{
+  color: red;
+}
+
+  

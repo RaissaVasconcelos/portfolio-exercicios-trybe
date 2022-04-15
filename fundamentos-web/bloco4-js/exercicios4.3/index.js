@@ -47,7 +47,7 @@ console.log(menor);
 //Condição pra ser primo = numero%numero==1 e numero%numero==1
 //A ideia é dividir em um intervalo entre a posição inicial e final da contagem 
 //do numero, ser for divisivel nesse intervalo, o numero n é primo
-//Obs: o if(variavel boleana) não precisa coloca variavel === true
+//Obs: o if(variavel boleana) posso só colocar a variavel if(variavel)
 
 let primeBig = 0;
 

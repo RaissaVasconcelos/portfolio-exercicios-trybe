@@ -33,15 +33,15 @@ function paragrafoMaiusculo (paragrafo) {
 //let tagQuantidade = document.getElementsByTagName('p');
 //console.log(tagQuantidade[0].innerHTML);
 
-// Exercício 6
-function showParagraphs(argumento) {
-    let paragraphs = querySelectorAll(argumento);
+// Exercício 6 -Erro
+/*function showParagraphs(argumento) {
+    let paragraphs = document.querySelectorAll(argumento);
     for (let index = 0; index < paragraphs.length; index += 1) {
       console.log(paragraphs[index].innerHTML);
 
     }
 }
-showParagraphs('.main-content p');
+showParagraphs('.main-content p');*/
 
 
 

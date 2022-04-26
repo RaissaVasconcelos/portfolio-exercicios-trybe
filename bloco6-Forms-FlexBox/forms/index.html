@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>FORMULÁRIO</h1>
+    <form action="" method="get">
+        <p>Adicione seu nome</p>
+        <label for="nome-completo"> Nome Completo:
+            <input type="text" required name="name" id="nome-completo" placeholder="Digite seu nome">
+        </label>
+        <br>
+        <p>Adicione seu email</p>
+        <label for="input-email"> Email:
+            <input type="text" required name="email" id="input-email" placeholder="Digite seu email">
+        </label>
+        <br>
+        <p>Selecione seu Estado</p>
+        <label for="input-estado">Selecione seu estado:
+            <select name="estado" id="input-estado">
+                <option value="sp">São Paulo</option>
+                <option value="am" selected>Amazonas</option>
+                <option value="mg">Minas Gerais</option>
+                <option value="sc">Santa Catarina</option>
+            </select>
+        </label>
+        <br>
+        <p>Adicione comida favorita</p>
+        <label for="comidas1-fav">
+            <input type="radio" name="comidas" id="comidas1-fav" value="pizza">Pizza
+        </label>
+        <label for="comidas2-fav">
+            <input type="radio" name="comidas" id="comidas2-fav" value="pastel">Pastel
+        </label>
+        <label for="comidas3-fav">
+            <input type="radio" name="comidas" id="comidas3-fav" value="lasanha">Lasanha
+        </label>
+        <br>
+        <p>Escreva sobre você</p>
+        <textarea name="sobre-mim" id="textare-1" cols="30" rows="10"></textarea>
+        <br>
+        <p>Digite sua senha</p>
+        <label for="minha-senha">
+            <input type="password" name="senha" id="minha-senha" required>
+        </label>
+        <br>
+        <label for="checkbox">
+            <input type="checkbox" name="check" id="checkbox">
+            Deseja receber informações?
+        </label>
+        <br>
+        <button type="submit">Enviar formulário</button>
+    </form>
+</body>
+
+</html>

@@ -66,6 +66,10 @@ button{
     font-weight: bolder;
     cursor: pointer;
 }
+button:hover{
+    padding: 10px;
+    background-color: rgb(201, 16, 32);
+}
 /*Estilizando o textarea*/
 #text-area{
     width: 50%;

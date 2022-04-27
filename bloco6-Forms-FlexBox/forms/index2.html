@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-form">
+        <h1 id="titulo">Formulário TryberTrip</h1>
+        <p><em>Responda se for do seu interesse!</em></p>
+    </header>
+    <main>
+        <div class="container-form">
+            <fieldset id="fieldset-main">
+                <form action="" method="get">
+                    <div class="container-line">
+                        <label for="input-name">Nome:</label>
+                        <input type="text" name="name" id="input-name" placeholder="Nome:">
+                    </div>
+                    <div class="container-line">
+                        <label for="input-email">Email: </label>
+                        <input type="email" name="email" id="input-email" placeholder="Email:">
+                    </div>
+                    <div class="container-line">
+                        <p>Comidas preferidas</p>
+                        <label for="input-option1">
+                            <input type="radio" name="option" id="input-option1" value="Option1" /> Comida Vegana
+                        </label>
+                        <label for="input-option2">
+                            <input type="radio" name="option" id="input-option2" value="Option2" /> Feijoada
+                        </label>
+                        <label for="input-option3">
+                            <input type="radio" name="option" id="input-option3" value="Option3" /> Peixe Assado
+                        </label>
+                        <label for="input-option4">
+                            <input type="radio" name="option" id="input-option4" value="Option4" /> Lasanha
+                        </label>
+                    </div>
+                    <div class="container-line">
+                        <p>Destino Preferido</p>
+                        <label for="destino-preferido">
+                            <select name="destino" id="destino-preferido">
+                                <option value="pr">Cidade</option>
+                                <option value="ca">Campo</option>
+                                <option value="cin" selected>Praia</option>
+                                <option value="pizza">Montanha</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="container-line">
+                        <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+                        <textarea name="textarea" id="text-area" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="container-line">
+                        <label for="input-date">Qual a melhor data para realizar sua viagem?</label>
+                        <input type="date" name="date" id="input-date">
+                    </div>
+                    <div class="container-line">
+                        <label for="checkbox1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+                        <input type="checkbox" name="check" id="checkbox1" >
+                        <label for="checkbox2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+                        <input type="checkbox" name="check" id="checkbox2" >
+                    </div>
+                    <div class="container-line">
+                        <button type="submit" id="button-submit">Enviar</button>
+                        <button type="reset" id="button-reset">Apagar</button>
+                    </div>
+            </fieldset>
+        </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

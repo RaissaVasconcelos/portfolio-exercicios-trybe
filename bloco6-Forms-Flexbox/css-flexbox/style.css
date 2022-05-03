@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+/* Estilizando Cabeçalho */
+#header{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(102, 100, 100);
+}
+
+#paragrafo{
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.header-img {
+  width: 70px;
+}
+
+/* Estilizando o body */
+.gallery-img {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(185, 185, 185);
+  border-radius: 10px;
+}
+
+.social-img {
+  width: 25px;
+  margin-left: 10px;
+}
+
+#images-logo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  align-content: stretch;
+  width:30%;
+  margin: 30px auto;
+}
+
+/* Esttilizando o rodapé */
+#footer{
+  display: flex;
+  justify-content: center;
+}
+
+

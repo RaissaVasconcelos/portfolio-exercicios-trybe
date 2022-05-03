@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+.header-container {
+  background-color: #5C687C;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  border: 1px solid red;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-basis: 268px;
+  border: 1px solid red;
+}
+
+.menu-container {
+  display: flex;
+  flex-basis: 500px;
+  border: 1px solid red;
+}
+
+.menu-container ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* requisito 3 */
+.header-container nav:nth-child(1){
+  flex-grow: 1;
+  /* requisito 4 */
+  align-self: center;
+}
+
+.menu-container li {
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+  list-style: none;
+  margin-right: 10px;
+}
+
+
+

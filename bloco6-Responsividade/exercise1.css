@@ -28,6 +28,7 @@ figcaption {
 
 .img{
   display: flex;
+  justify-content: center;
 }
 
 
@@ -38,6 +39,7 @@ figcaption {
     font-size:1.2em;
     margin: 0 30px;
     background-color: rgb(250, 228, 200);
+    text-align: justify;
   }
   
   h1, h2{
@@ -59,8 +61,10 @@ figcaption {
   /* for desktops */
   body{
     font-size:2em;
-    margin: 0 30px;
+    margin: 20px auto;
     background-color: rgb(158, 228, 158);
+    max-width: 80%;
+    text-align: justify;
   }
 
   h1, h2{
